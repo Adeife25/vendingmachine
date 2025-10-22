@@ -29,6 +29,5 @@ Include sound or animation effects
 Save user history or last purchase using local storage
 
 Add a backend to manage inventory dynamically
-
-🖼️ Demo
-If hosted, add your live link here 👇
+live link here 👇
+ https://adeife25.github.io/vendingmachine/
