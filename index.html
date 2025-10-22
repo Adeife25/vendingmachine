@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+     <link rel="stylesheet" href=".\css\style.css">
+     <style>
+</style>
+</head>
+<body>
+    <div class="container">
+
+    <div class="vendingmachine">
+
+        <div class="vendingdoor">
+           <div class="linerow">
+            <div class="products" id="productRow1">
+            <img src=".\images\coke.png" alt="Coke" class="p-001" >
+              <img src=".\images\7up.png" alt="7up" class="p-002" >
+                <img src=".\images\sprite.png" alt="Sprite" class="p-003" >
+                    <img src=".\images\fanta.png" alt="Fanta" class="p-004" >
+                    <img src=".\images\coke.png" alt="Coke" class="p-005" >
+                    </div>
+
+           </div>
+
+           <div class="linerow">
+            <div class="products" id="productRow2">
+            <img src=".\images\coke.png" alt="Coke" class="p-006" >
+              <img src=".\images\7up.png" alt="7up" class="p-007" >
+                <img src=".\images\sprite.png" alt="Sprite" class="p-008" >
+                    <img src=".\images\fanta.png" alt="Fanta" class="p-009" >
+                    <img src=".\images\coke.png" alt="Coke" class="p-010" >
+                    </div>
+
+           </div>
+
+           <div class="linerow">
+            <div class="products" id="productRow3">
+            <img src=".\images\coke.png" alt="Coke" class="p-011" >
+              <img src=".\images\7up.png" alt="7up" class="p-012" >
+                <img src=".\images\sprite.png" alt="Sprite" class="p-013" >
+                    <img src=".\images\fanta.png" alt="Fanta" class="p-014" >
+                    <img src=".\images\coke.png" alt="Coke" class="p-015" >
+                    </div>
+
+           </div>
+
+           <div class="linerow">
+            <div class="products" id="productRow4">
+            <img src=".\images\coke.png" alt="Coke" class="p-016" >
+              <img src=".\images\7up.png" alt="7up" class="p-017" >
+                <img src=".\images\sprite.png" alt="Sprite" class="p-018" >
+                    <img src=".\images\fanta.png" alt="Fanta" class="p-019" >
+                    <img src=".\images\coke.png" alt="Coke" class="p-020" >
+                    </div>
+
+           </div>
+
+            <div class="linerow">
+                <div class="products" id="productRow5">
+            <img src=".\images\coke.png" alt="Coke" class="p-021" >
+              <img src=".\images\7up.png" alt="7up" class="p-022" >
+                <img src=".\images\sprite.png" alt="Sprite" class="p-023" >
+                    <img src=".\images\fanta.png" alt="Fanta" class="p-024" >
+                    <img src=".\images\coke.png" alt="Coke" class="p-025" >
+                    </div>
+
+            </div>
+
+        </div>
+
+        <div class="product dispenser" onkeypress="dispenseProduct()" id="dispenser">
+            <div>
+
+            </div>
+        </div>
+
+
+        <div class="control">
+
+        <h6>Enter Product Code Here</h6>
+
+            <div class="keypad" id="keypad">
+                <div class="row">
+                    <input type="text" id="screen" value="" readonly>
+
+                    <button onclick="showNumber('1')" class="btn">1</button>
+                    <button onclick="showNumber('2')" class="btn">2</button>
+                    <button onclick="showNumber('3')" class="btn">3</button>
+            
+                    <button onclick="showNumber('4')" class="btn">4</button>
+                    <button onclick="showNumber('5')" class="btn">5</button>
+                    <button onclick="showNumber('6')" class="btn">6</button>
+               
+                    <button onclick="showNumber('7')" class="btn">7</button>
+                    <button onclick="showNumber('8')" class="btn">8</button>
+                    <button onclick="showNumber('9')" class="btn">9</button>
+              
+               
+                    <button id="buyButton" onclick="buyProduct('buy')" class="btn" disabled>buy</button>
+                    <button onclick="showNumber('0')" class="btn">0</button>
+                    <button onclick="clearScreen()" class="btn">c</button>
+                </div>
+
+            </div>
+        </div>
+
+        <input type="number"  value="3.00" onclick="price" id="amount" readonly>
+        <button onclick="check()" class="btn" id="btnprice">pay</button>
+     
+    </div>
+    <div>
+    <h5>Available product code to order for your favorite drink</h5>
+    </div>
+    <div class="code-list">
+    <h6>NOTE: pay before buying</h6>
+    <h6>Coke - 001, 005, 006, 010, 011,</h6>
+    <h6>  015, 016, 020, 021, 025</h6>
+    <h6>7up - 002, 007, 012, 017, 022</h6>
+    <h6>Sprite - 003, 008, 013, 018, 023</h6>  
+    <h6>Fanta - 004, 009, 014, 019, 024</h6>
+<script src="js/vending.js"></script>
+</body>
+</html>

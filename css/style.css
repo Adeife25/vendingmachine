@@ -1,0 +1,191 @@
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .products img {
+    width: 100px;
+    margin: 10px auto;
+  }
+}
+
+
+body {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 30px;
+        padding: 50px;
+        max-width: 500px;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+.container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.vendingmachine {
+    background-color: rgb(138, 63, 63);
+     border: 2px solid black;
+     padding: 20px;
+     height: 500px;
+     margin: 20px;
+}
+
+.vendingdoor {
+    background-color: rgb(216, 232, 246);
+    border : 2px solid black;
+    height: 397p9x;
+    width: 300px;
+    gap: 5px;
+    overflow: hidden;
+}
+
+.product.dispenser {
+    border: 2px solid black;
+    background-color: rgb(216, 232, 246);
+    height: 80px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.control {
+    border: 2px solid black;
+    height: 200px;
+    width: 100px;
+ margin-left: 315px;
+ margin-top: -360px;
+}
+
+#screen {
+    border: 2px solid black;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    margin-left: 7px;
+
+}
+
+.btn {
+    width: 20px;
+    height: 17px;
+    margin: 5px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#buyButton {
+    width: 26px;
+    height: 17px;
+    margin-left: -1px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding-left: 1px;
+}
+
+input {
+    text-align: center;
+    font-size: 17px;
+}
+
+.linerow{
+    border: 1px solid black;
+    height: 79px;
+    margin-inline: 5px;
+    overflow: hidden;
+}
+
+#products{
+  display: flex;
+  align-items: center;
+}
+
+#amount{
+    width: 50px;
+    margin-left: 350px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+#btnprice{
+    width: 57px;
+    padding-bottom: 29px;
+    height: 25px;
+    margin-left: 357px;
+    margin-top: 0px;
+    font-size: 12px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#productRow1, #productRow2, #productRow3, #productRow4, #productRow5{
+  width: 80px;
+  height: 85px;
+  margin-right: -12px; /* much smaller spacing */
+  margin-top: -3px;
+ gap: 2px;
+ flex-shrink: 0%;
+ display: flex;
+}
+
+.p-001, .p-006, .p-011, .p-016, .p-021{
+    height: 70px;
+    width: 85px;
+    margin-top: 13px;
+}
+
+.p-003, .p-008, .p-013, .p-018, .p-023{
+    height: 65px;
+    width: 80px;
+    margin-top: 16px;
+}
+.p-004, .p-009, .p-014, .p-019, .p-024{
+    height: 70px;
+    width: 45px;
+    margin-top: 14px;
+}
+.p-002, .p-007, .p-012, .p-017, .p-022{
+    width: 80px;
+    height: 80px;
+    margin-right: -20px;
+    margin-left: -30px;
+    margin-top: 10px;
+
+}
+
+.p-005, .p-010, .p-015, .p-020, .p-025{
+    height: 70px;
+    width: 80px;
+    margin-top: 14px;
+    margin-left: -3px;
+}
+
+
+h6{
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+h5{
+    margin-top: -560px;
+    margin-bottom: 20px;
+}
+.code-list{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 323px;
+    font-size: 12px;
+}
+
+
+.btn:hover {
+    background-color: rgb(0, 150, 200);
+}
+
